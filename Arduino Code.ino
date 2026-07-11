@@ -38,7 +38,7 @@ Preferences prefs;
 HTTPClient  httpClient;
 NimBLECharacteristic* charStatus = nullptr;
 
-String wifiSSID = "NITP", wifiPassword = "Admin#2024";
+String wifiSSID = "Wifi_Name", wifiPassword = "password";
 bool   credsReceived = false;
 unsigned long lastSensorSend = 0, lastCommandPoll = 0, lastBlink = 0;
 
